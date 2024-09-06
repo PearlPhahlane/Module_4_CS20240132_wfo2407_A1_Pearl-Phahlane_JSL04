@@ -30,9 +30,7 @@ heartRate < 100 ? console.log(`Boost needed!`) : console.log("Energy levels are 
 
 let currentTemp = 4; // Current temperature in °C
 
-currentTemp <= 5
-  ? console.log(`Chilled to perfection!`)
-  : console.log(`Needs a cooler!`);
+currentTemp <= 5 ? console.log(`Chilled to perfection!`) : console.log(`Needs a cooler!`);
 
 // #### Challenge 5: Late Night Coding Session
 // Determine if it's a good idea to have a Monster Energy drink based on the current hour.
